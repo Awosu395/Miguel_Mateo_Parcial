@@ -15,8 +15,14 @@
                 <GradientStop Color="White" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label Content="ADMINISTRADOR
-               " HorizontalAlignment="Left" Margin="170,36,0,0" VerticalAlignment="Top" Height="78" Width="122"/>
+        <Label Content="¡Bienvenida!" HorizontalAlignment="Left" Margin="263,55,0,0" VerticalAlignment="Top" Height="60" Width="252" FontSize="36" FontFamily="Arial Black" RenderTransformOrigin="0.477,0.818"/>
+        <Rectangle HorizontalAlignment="Center" Height="90" Stroke="Black" VerticalAlignment="Center" Width="780"/>
+        <Label Content="Eres una Administradora fantastica, sigue así, nunca cambies." HorizontalAlignment="Left" Margin="19,199,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Bell MT" Height="45" Width="767"/>
+        <Calendar HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Height="154" Width="166"/>
+        <Label Content="Valor total de las ventas:" HorizontalAlignment="Left" Margin="275,291,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18"/>
+        <Rectangle HorizontalAlignment="Left" Height="73" Margin="275,341,0,0" Stroke="Black" VerticalAlignment="Top" Width="256"/>
+        <Button Content="Total ventas" HorizontalAlignment="Left" Margin="340,361,0,0" VerticalAlignment="Top" Height="33" Width="124" Click="Button_Click"/>
+        <Button Content="Atrás" HorizontalAlignment="Left" Margin="19,391,0,0" VerticalAlignment="Top" Height="36" Width="49" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

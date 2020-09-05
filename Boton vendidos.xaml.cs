@@ -14,30 +14,18 @@ using System.Windows.Shapes;
 namespace MiguelMendoza_Parcial1
 {
     /// <summary>
-    /// Lógica de interacción para empleada1.xaml
+    /// Lógica de interacción para Boton_vendidos.xaml
     /// </summary>
-    public partial class empleada1 : Page
+    public partial class Boton_vendidos : Page
     {
-        public empleada1()
+        public Boton_vendidos()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow w = (MainWindow)Window.GetWindow(this);
-            w.Framemain.NavigationService.Navigate(new panestotal());
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            MainWindow w = (MainWindow)Window.GetWindow(this);
-            w.Framemain.NavigationService.Navigate(new administrador());
         }
     }
 }

@@ -22,5 +22,17 @@ namespace MiguelMendoza_Parcial1
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = (MainWindow)Window.GetWindow(this);
+            w.Framemain.NavigationService.Navigate(new Boton_vendidos());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = (MainWindow)Window.GetWindow(this);
+            w.Framemain.NavigationService.Navigate(new administrador());
+        }
     }
 }

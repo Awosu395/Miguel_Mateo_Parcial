@@ -15,6 +15,35 @@
                 <GradientStop Color="White" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
+        <Label Content="Clases de panes
+               " HorizontalAlignment="Left" Margin="36,35,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Arial Black" Width="225" Height="39"/>
+        <Rectangle HorizontalAlignment="Left" Height="39" Margin="16,35,0,0" Stroke="Black" VerticalAlignment="Top" Width="272"/>
+        <Label Content="Alineados = $1000 C/u" HorizontalAlignment="Left" Margin="21,93,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Bell MT"/>
+        <Label Content="No alineados = $500 C/u" HorizontalAlignment="Left" Margin="21,164,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Bell MT" FontStyle="Normal"/>
+        <Label Content="Especiales = $2000 C/u" HorizontalAlignment="Left" Margin="27,244,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.781,0.991" FontSize="22" FontFamily="Bell MT"/>
+        <Label Content="Cantidad de panes vendidos:" HorizontalAlignment="Left" Margin="16,367,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Cambria Math" Width="360"/>
+        <Label Content="Precio total:" HorizontalAlignment="Left" Margin="21,405,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.704,3.236" FontSize="24" FontFamily="Cambria Math"/>
+        <Label Content="Todos los panes son de el mismo tamaño." HorizontalAlignment="Left" Margin="16,316,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Bahnschrift"/>
+        <Rectangle HorizontalAlignment="Left" Height="26" Margin="7,319,0,0" Stroke="Black" VerticalAlignment="Top" Width="358"/>
+        <Label Content="Cedula del cliente  = " HorizontalAlignment="Left" Margin="368,20,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Bell MT"/>
+        <Label Content="Nombre del cliente  = " HorizontalAlignment="Left" Margin="367,75,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Bell MT"/>
+        <Label Content="Hora de la venta  = " HorizontalAlignment="Left" Margin="375,129,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Bell MT"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="367,19,0,0" Stroke="Black" VerticalAlignment="Top" Width="171"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="362,72,0,0" Stroke="Black" VerticalAlignment="Top" Width="171"/>
+        <Rectangle HorizontalAlignment="Left" Height="38" Margin="375,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="145"/>
+        <Button Content="Vender el producto" HorizontalAlignment="Left" Margin="397,181,0,0" VerticalAlignment="Top" Height="33" Width="111" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="562,18,0,0" Text="1005587841" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" Height="36" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="565,75,0,0" Text="Miguel Mateo Mendoza Rojas" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Height="29"/>
+        <TextBox HorizontalAlignment="Left" Margin="548,132,0,0" Text="8:00 am" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" TextChanged="TextBox_TextChanged" Height="29"/>
+        <TextBox HorizontalAlignment="Left" Margin="317,378,0,0" Text="12" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="155,417,0,0" Text="$12.000" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Atrás" HorizontalAlignment="Left" Margin="7,3,0,0" VerticalAlignment="Top" Height="30" Width="53" Click="Button_Click_1"/>
+        <Label Content="Panes que quiere comprar:" HorizontalAlignment="Left" Margin="468,297,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Cambria Math"/>
+        <Rectangle HorizontalAlignment="Left" Height="29" Margin="452,297,0,0" Stroke="Black" VerticalAlignment="Top" Width="222"/>
+        <Rectangle HorizontalAlignment="Left" Height="97" Margin="538,181,0,0" Stroke="Black" VerticalAlignment="Top" Width="230"/>
+        <Label Content="Se compraron 12 panes alineados" HorizontalAlignment="Left" Margin="544,0,0,0" VerticalAlignment="Center" FontSize="14"/>
+        <Rectangle HorizontalAlignment="Left" Height="78" Margin="560,348,0,0" Stroke="Black" VerticalAlignment="Top" Width="159"/>
+        <Label Content="Alineados" HorizontalAlignment="Left" Margin="604,367,0,0" VerticalAlignment="Top" FontSize="14"/>
 
     </Grid>
 </Page>
