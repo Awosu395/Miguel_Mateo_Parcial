@@ -1,0 +1,23 @@
+﻿<Page x:Class="MiguelMendoza_Parcial1.administrador"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MiguelMendoza_Parcial1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="administrador">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFF9393" Offset="1"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="¿Eres empleada o administradora?" HorizontalAlignment="Left" Margin="151,65,0,0" VerticalAlignment="Top" Height="142" Width="552" FontSize="36" FontFamily="Bell MT"/>
+        <Button Name="btnEmple" Content="Empleada" HorizontalAlignment="Center" Margin="0,198,0,0" VerticalAlignment="Top" Height="44" Width="122" Click="btnEmple_Click"/>
+        <Button Name="btnAdmin" Content="Administradora" HorizontalAlignment="Center" Margin="0,136,0,0" VerticalAlignment="Top" Height="44" Width="122" Click="btnAdmin_Click"/>
+
+    </Grid>
+</Page>
